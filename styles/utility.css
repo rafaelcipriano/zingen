@@ -27,8 +27,16 @@
   display: flex;
 }
 
+.items-center {
+  align-items: center;
+}
+
 .gap-1 {
   gap: 1rem;
+}
+
+.gap-1\.5 {
+  gap: 1.5rem;
 }
 
 .grid {
@@ -38,7 +46,7 @@
 .container {
   --max-width: 375px;
   width: min(var(--max-width), 100% - var(--px-lg) * 2);
-  border: 2px solid aqua;
+  /* border: 2px solid aqua; */
   margin-inline: auto;
 }
 
